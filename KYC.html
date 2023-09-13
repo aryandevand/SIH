@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Awareness Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add custom CSS for the chatbot interface */
+        .chat-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .chat-box {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <img class="law-ministry-icon" src="./Law-Ministry.jpg"></img> -->
+        <div class="lawdiv1">
+            <header>
+                <div style="display: absolute;">
+                    <h1>Legal Guru</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./laws.html">Laws</a></li>
+                            <li><a href="#">KYC</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="kyc-container">
+                <h1>KYC Form</h1>
+                <form id="kyc-form">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="id-proof">ID Proof (e.g., Passport, Aadhar Card)</label>
+                        <input type="file" id="id-proof" name="id-proof" accept=".pdf,.jpg,.jpeg,.png" required>
+                    </div>
+                    <button type="submit">Submit KYC</button>
+                </form>
+                <div id="kyc-status"></div>
+            </div>
+            <script src="script.js"></script>
+        
+        <div class="block block-block first last odd" id="block-block-19">
+            <div class="link-tab-container">
+                <div class="link-tab left-tab1 color1 col33">
+                    <div class="link-tabs-left1">
+                        <a href="https://legalaffairs.gov.in/" target="_blank" title="External site that opens in a new window" role="link">
+                            <img alt="Department of Legal Affairs" src="https://lawmin.gov.in/sites/all/themes/landj/images/link-tab1.jpg">
+                        </a>
+                    </div>
+                    <div class="link-tabs-right1 front-tab-link">
+                        <a href="https://legalaffairs.gov.in/" target="_blank" title="External site that opens in a new window" role="link">Department of Legal Affairs</a>
+                    </div>
+                </div>
+                <div class="link-tab left-tab1 color1 col33">
+                    <div class="link-tabs-left1">
+                        <a href="https://legislative.gov.in/" target="_blank" title="External site that opens in a new window" role="link">
+                            <img alt="Legislative Department" src="https://lawmin.gov.in/sites/all/themes/landj/images/link-tab4.jpg">
+                        </a>
+                    </div>
+                    <div class="link-tabs-right1 front-tab-link">
+                        <a href="https://legislative.gov.in/" target="_blank" title="External site that opens in a new window" role="link">Legislative Department</a>
+                    </div>
+                </div>
+                <div class="link-tab left-tab1 color1 col33">
+                    <div class="link-tabs-left1">
+                        <a href="https://doj.gov.in/" target="_blank" title="External site that opens in a new window" role="link">
+                            <img alt="Department of Justice" src="https://lawmin.gov.in/sites/all/themes/landj/images/link-tab3.jpg">
+                        </a>
+                    </div>
+                    <div class="link-tabs-right1 front-tab-link">
+                        <a href="https://doj.gov.in/" target="_blank" title="External site that opens in a new window" role="link">Department of Justice</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2023 Legal Awareness. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
